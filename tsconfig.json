@@ -1,0 +1,9 @@
+{
+    "extends": "astro/tsconfigs/strict",
+    "compilerOptions": {
+      // ensure that nobody can accidentally use this config for a build
+      "noEmit": true,
+      "jsx": "react"
+    },
+    "include": ["apps", "packages"]
+}
